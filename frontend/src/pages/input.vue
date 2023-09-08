@@ -13,7 +13,6 @@ export default {
 <template> 
   <div class="input" > 
     <div class="page_title" > 
-      <p>INPUT</p>
     </div>
     <div class="inputBeans">名前<input v-model="name" /></div>
     <div class="inputBeans">産地<input v-model="producingArea" /></div>
