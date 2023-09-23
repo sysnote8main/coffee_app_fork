@@ -6,11 +6,12 @@ ENV HOME=/${WORKDIR}
 WORKDIR ${HOME}
 
 RUN apt update \
-    && npm install
+    && apt upgrade -yq
+
+COPY package.json /${WORKDIR}/package.json
+RUN npm install
 
 COPY . ./
-COPY package.json /app/package.json
-# COPY yarn.lock /app/yarn.lock
 
 EXPOSE 5173
-CMD ["npm", "dev", "--host"]
+CMD ["npm", "run", "dev", "--host"]

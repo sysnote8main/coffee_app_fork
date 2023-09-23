@@ -55,7 +55,7 @@ services:
     depends_on:
       - backend
     tty: true
-    command: npm dev --host
+    command: npm run dev --host
 volumes:
   dbvolume:
   gem-store:
