@@ -241,3 +241,5 @@
 7.0.7.1 activesupport:= 7.0.7.1,builder:~> 3.1,erubi:~> 1.4,rails-dom-testing:~> 2.0,rails-html-sanitizer:>= 1.2.0&~> 1.1|checksum:0d62a718ff96c6d0ba6de32622c333e95712546fc014e8ce89492f4b5c071b54,ruby:>= 2.7.0
 6.1.7.6 activesupport:= 6.1.7.6,builder:~> 3.1,erubi:~> 1.4,rails-dom-testing:~> 2.0,rails-html-sanitizer:>= 1.2.0&~> 1.1|checksum:2d4ecc457c7bf8d7e9a1a42e00ac557a60ff1ffa9d1c4ef8613a8c4d8b0d8ce8,ruby:>= 2.5.0
 7.0.7.2 activesupport:= 7.0.7.2,builder:~> 3.1,erubi:~> 1.4,rails-dom-testing:~> 2.0,rails-html-sanitizer:>= 1.2.0&~> 1.1|checksum:15ba2612efb484ec80d5b656b4ea16e02d34d3f9980cabc13bd8ac15ccea3f94,ruby:>= 2.7.0
+7.0.8 activesupport:= 7.0.8,builder:~> 3.1,erubi:~> 1.4,rails-dom-testing:~> 2.0,rails-html-sanitizer:>= 1.2.0&~> 1.1|checksum:a22d692b9a6422f36882425301a4043fbe078a66e94a909a60a6a216246fd776,ruby:>= 2.7.0
+7.1.0.beta1 activesupport:= 7.1.0.beta1,builder:~> 3.1,erubi:~> 1.11,rails-dom-testing:~> 2.2,rails-html-sanitizer:~> 1.6|checksum:4d9659869a0daa01fe11f4a0b2cfe3df30e565795e34c289d2d595d817ab4714,ruby:>= 2.7.0,rubygems:> 1.3.1

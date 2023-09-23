@@ -3,6 +3,8 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
-  get '/api/test', to: 'application#test' # ここを追加
+  get '/api/test', to: 'application#test'
+  resources :beans, only: [:index, :create]
+  # post '/beans/create', to: 'beans#create'
 
 end

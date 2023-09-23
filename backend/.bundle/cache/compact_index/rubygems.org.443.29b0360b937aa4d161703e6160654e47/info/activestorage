@@ -117,3 +117,5 @@
 7.0.7.1 actionpack:= 7.0.7.1,activejob:= 7.0.7.1,activerecord:= 7.0.7.1,activesupport:= 7.0.7.1,marcel:~> 1.0,mini_mime:>= 1.1.0|checksum:e106281b9123a0cf566228ba70c65a05199cbd606707376bd4e19f149ab455bb,ruby:>= 2.7.0
 6.1.7.6 actionpack:= 6.1.7.6,activejob:= 6.1.7.6,activerecord:= 6.1.7.6,activesupport:= 6.1.7.6,marcel:~> 1.0,mini_mime:>= 1.1.0|checksum:cc8bd29a9f4fc657bebe40da2aef6b23afadb2cd611e0a3b17782f8d2da7fe9a,ruby:>= 2.5.0
 7.0.7.2 actionpack:= 7.0.7.2,activejob:= 7.0.7.2,activerecord:= 7.0.7.2,activesupport:= 7.0.7.2,marcel:~> 1.0,mini_mime:>= 1.1.0|checksum:8f1d79266f148d74e1cc7fcc91f3f04171e0d10c68f8a31ac95d11644114f4f0,ruby:>= 2.7.0
+7.0.8 actionpack:= 7.0.8,activejob:= 7.0.8,activerecord:= 7.0.8,activesupport:= 7.0.8,marcel:~> 1.0,mini_mime:>= 1.1.0|checksum:8c2cae8de321ec899c7e7c4655331714fdd57f0966215286330f5c4d95a9db34,ruby:>= 2.7.0
+7.1.0.beta1 actionpack:= 7.1.0.beta1,activejob:= 7.1.0.beta1,activerecord:= 7.1.0.beta1,activesupport:= 7.1.0.beta1,marcel:~> 1.0|checksum:b0609e5d31627b64c27cc85db4c3304cc593a2c7e55ddda903713799d555f1e1,ruby:>= 2.7.0,rubygems:> 1.3.1

@@ -53,3 +53,4 @@
 1.7.3 reline:>= 0.3.6|checksum:23efb700b4920ef3b2e8375428e81007a9fc456e4d93a68e266a6bcda8db1c36,ruby:>= 2.7
 1.7.4 reline:>= 0.3.6|checksum:c80e2b259f8d2277adaae4bc9a0e6d0f5a9d9578c1a15728b6180f3941500c95,ruby:>= 2.7
 1.8.0 rdoc:~> 6.5,reline:>= 0.3.6|checksum:2f5e1ada186747b11e0a3ccbf65637c090ad2ccbfaf5c9bbd76169a8db747179,ruby:>= 2.7
+1.8.1 rdoc:>= 0,reline:>= 0.3.8|checksum:87b74e01aac7560e278bd02184d184fba89b1d231165ce3714f02f3a7556e69e,ruby:>= 2.7

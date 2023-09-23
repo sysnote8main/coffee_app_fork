@@ -111,3 +111,4 @@
 4.1.0 concurrent-ruby:~> 1.0,rack:< 3&> 1|checksum:7a88fecf2b6f433479557b81417f42ba1dc440858d06ad1d934022ab3a5e0268,ruby:>= 2.5.0
 4.1.1 concurrent-ruby:~> 1.0,rack:< 3&> 1|checksum:68b10b0e574fc2a080e4779d025bf39bc7a20bc8659e32f827cccce9581348e2,ruby:>= 2.5.0
 4.2.0 concurrent-ruby:~> 1.0,rack:< 4&>= 2.2.4|checksum:5c273487255c47523f30c0b673310fce70a09ca060a6bbcd3e5d0d489e19024c,ruby:>= 2.5.0
+4.2.1 concurrent-ruby:~> 1.0,rack:< 4&>= 2.2.4|checksum:951b13dd2f2fcae840a7184722689a803e0ff9d2702d902bd844b196da773f97,ruby:>= 2.5.0
