@@ -55,7 +55,7 @@ services:
     depends_on:
       - backend
     tty: true
-    command: yarn dev --host
+    command: npm dev --host
 volumes:
   dbvolume:
   gem-store:
