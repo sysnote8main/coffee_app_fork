@@ -37,6 +37,7 @@ services:
       TZ: Asia/Tokyo
       RAILS_ENV: development
       MYSQL_ROOT_PASSWORD: $MYSQL_ROOT_PASSWORD
+      FRONT_PORT: $FRONT_PORT
     depends_on:
       - db
     stdin_open: true

@@ -1,55 +1,35 @@
 <script>
   import axios from 'axios'
   export default {
-    components: {
-      axios
-    },
     data() {
       return {
         res: {},
         message: '',
         frontUrl: import.meta.env.VITE_FRONT_URL,
-        // 'http://localhost:3000/api/test'
       }
     },
     methods: {
-      test() {
-        fetch(this.frontUrl + 'test')
-            .then((response) => response.json())
-            .then((data) => {
-            this.message = data.message
-            })
-      },
-
-      addBeans() {
-        const url = "http://localhost:3000/beans"
+      async addBeans() {
+        const url = this.frontUrl + "/beans"
         const params = {
-          method : "POST",
-          headers: {'Content-Type': 'application/json'}
+          name: this.name,
+          producingArea: this.producingArea,
+          kind: this.kind,
+          degreeOfRoasting: this.degreeOfRoasting,
+          price: this.price,
+          acidity: this.acidity,
+          bitter: this.bitter,
+          sweety: this.sweety,
+          fullBody: this.fullBody,
+          aroma: this.aroma,
+          inputBeans: this.inputBeans,
         };
-        // fetch(url, params)
-        // .then((response) => {
-        //   console.log(response)
-        //   if (!response.ok) {
-        //     throw new Error("Network response was not OK");
-        //   }
-        //   return response.json();
-        // })
-        // .then((data) => {
-        //   this.message = data.message
-        //   })
-        // .catch((error) => {
-        //   console.log('error')
-        //   console.error("There has been a problem with your fetch operation:", error);
-        // });
-
-        axios.post(url, params)
-            .then((response) => response.json())
-            .then((data) => {
-            this.message = data.message
-            })
-        // const response = await fetch(url, params);
-        // this.message = await response.json();
+        // const headers = {
+        //     'Content-Type': 'application/json',
+        // }
+        
+        const res = await axios.post(url,params);
+        this.message = res.data.message;
       }
     }
   }
@@ -88,5 +68,7 @@
     <div class="inputBeans">コメント<input v-model="comments" /></div>
     <button @click="addBeans()">登録</button>
     <button @click="delBeans()">削除</button>
+
+    {{  this.message }}
 </div>
 </template>
