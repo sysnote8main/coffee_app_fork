@@ -1,14 +1,14 @@
 <script>
-import Input from '../components/Input.vue'
+import Beans from '../components/Beans.vue'
 export default {
   components: {
-    Input
+    Beans
   },
 }
 </script>
 
 <template> 
-  <Input/>
+  <Beans/>
 </template>
 
 <style scoped>

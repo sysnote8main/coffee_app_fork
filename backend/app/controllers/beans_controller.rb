@@ -16,22 +16,26 @@ class BeansController < ActionController::API
 
   def show
     bean = Bean.find(params[:id])
+    render json: { status: 200, bean: bean, message: "success" }
   end
 
   def edit
     bean = Bean.find(params[:id])
+    render json: { status: 200, bean: bean, message: "success" }
   end
 
   def update
     bean = Bean.find(params[:id])
-    bean.update!(beans_param)
-    redirect_to bean
+    if bean.update(beans_param)
+      render json: { status: 200, bean: bean, message: "success" }
+    else
+      render json: { status: 500, bean: nil, message: bean.errors }
+    end
   end
 
   def destroy
     bean = Bean.find(params[:id])
     bean.destroy!
-    redirect_to bean
   end
 
   private
@@ -49,6 +53,7 @@ class BeansController < ActionController::API
       :fullBody,
       :aroma,
       :inputBeans,
+      :comments,
     )
   end
 end
