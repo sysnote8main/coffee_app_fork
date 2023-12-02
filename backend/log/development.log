@@ -4569,3 +4569,72 @@ Processing by BeansController#index as HTML
 Completed 200 OK in 23ms (Views: 17.4ms | ActiveRecord: 3.6ms | Allocations: 996)
 
 
+Started GET "/beans" for 172.21.0.1 at 2023-10-01 16:22:40 +0900
+Processing by BeansController#index as HTML
+  [1m[36mBean Load (2.2ms)[0m  [1m[34mSELECT `beans`.* FROM `beans`[0m
+  ↳ app/controllers/beans_controller.rb:4:in `index'
+Completed 200 OK in 19ms (Views: 13.7ms | ActiveRecord: 3.7ms | Allocations: 965)
+
+
+Started GET "/beans" for 172.21.0.1 at 2023-10-02 13:23:37 +0900
+Processing by BeansController#index as HTML
+  [1m[36mBean Load (2.1ms)[0m  [1m[34mSELECT `beans`.* FROM `beans`[0m
+  ↳ app/controllers/beans_controller.rb:4:in `index'
+Completed 200 OK in 20ms (Views: 14.6ms | ActiveRecord: 3.9ms | Allocations: 966)
+
+
+Started GET "/beans" for 172.21.0.1 at 2023-10-02 23:03:24 +0900
+Processing by BeansController#index as HTML
+  [1m[36mBean Load (4.3ms)[0m  [1m[34mSELECT `beans`.* FROM `beans`[0m
+  ↳ app/controllers/beans_controller.rb:4:in `index'
+Completed 200 OK in 58ms (Views: 47.3ms | ActiveRecord: 8.7ms | Allocations: 966)
+
+
+Started GET "/beans" for 172.21.0.1 at 2023-10-03 09:45:54 +0900
+Processing by BeansController#index as HTML
+  [1m[36mBean Load (3.8ms)[0m  [1m[34mSELECT `beans`.* FROM `beans`[0m
+  ↳ app/controllers/beans_controller.rb:4:in `index'
+Completed 200 OK in 66ms (Views: 56.3ms | ActiveRecord: 7.1ms | Allocations: 965)
+
+
+Started GET "/beans" for 172.21.0.1 at 2023-10-03 19:35:18 +0900
+Processing by BeansController#index as HTML
+  [1m[36mBean Load (3.5ms)[0m  [1m[34mSELECT `beans`.* FROM `beans`[0m
+  ↳ app/controllers/beans_controller.rb:4:in `index'
+Completed 200 OK in 35ms (Views: 23.9ms | ActiveRecord: 5.6ms | Allocations: 965)
+
+
+Started GET "/beans" for 172.21.0.1 at 2023-10-03 21:30:25 +0900
+Processing by BeansController#index as HTML
+  [1m[36mBean Load (2.3ms)[0m  [1m[34mSELECT `beans`.* FROM `beans`[0m
+  ↳ app/controllers/beans_controller.rb:4:in `index'
+Completed 200 OK in 28ms (Views: 21.0ms | ActiveRecord: 4.5ms | Allocations: 965)
+
+
+Started GET "/beans" for 172.21.0.1 at 2023-10-03 21:51:48 +0900
+Processing by BeansController#index as HTML
+Started GET "/beans" for 172.21.0.1 at 2023-10-03 21:59:46 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (7.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BeansController#index as HTML
+  [1m[36mBean Load (8.4ms)[0m  [1m[34mSELECT `beans`.* FROM `beans`[0m
+  ↳ app/controllers/beans_controller.rb:5:in `index'
+Completed 200 OK in 29375ms (Views: 19.3ms | ActiveRecord: 20.0ms | Allocations: 55259)
+
+
+Started GET "/beans" for 172.21.0.1 at 2023-10-03 22:22:55 +0900
+Processing by BeansController#index as HTML
+  [1m[36mBean Load (3.0ms)[0m  [1m[34mSELECT `beans`.* FROM `beans`[0m
+  ↳ app/controllers/beans_controller.rb:5:in `index'
+Completed 200 OK in 106ms (Views: 9.9ms | ActiveRecord: 4.4ms | Allocations: 12487)
+
+
+Started GET "/beans" for 172.21.0.1 at 2023-10-03 22:22:55 +0900
+Processing by BeansController#index as HTML
+Started GET "/beans" for 172.21.0.1 at 2023-10-04 13:24:01 +0900
+Processing by BeansController#index as HTML
+Started GET "/beans" for 172.21.0.1 at 2023-10-04 21:56:53 +0900
+Processing by BeansController#index as HTML
+Started GET "/beans" for 172.21.0.1 at 2023-10-05 09:00:57 +0900
+Processing by BeansController#index as HTML
+Started GET "/beans" for 172.21.0.1 at 2023-10-05 09:00:59 +0900
+Processing by BeansController#index as HTML
