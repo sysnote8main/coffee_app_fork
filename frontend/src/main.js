@@ -3,8 +3,8 @@ import './assets/main.css'
 import { createApp } from 'vue'
 import App from './App.vue'
 import { createRouter, createWebHashHistory } from "vue-router"
-import ListComponent from "./pages/List.vue"
-import BeansComponent from "./pages/Beans.vue"
+import ListComponent from "./pages/list.vue"
+import BeansComponent from "./pages/beans.vue"
 
 const routes = [
   { path: '/', component: ListComponent },
