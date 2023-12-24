@@ -1,9 +1,8 @@
 require "active_support/core_ext/integer/time"
 
 Rails.application.configure do
-  config.hosts.clear
-
-  # config.hosts << ENV["FRONT_PORT"]
+  
+  config.hosts << ENV["FRONT_PORT"]
 
   # Settings specified here will take precedence over those in config/application.rb.
 
