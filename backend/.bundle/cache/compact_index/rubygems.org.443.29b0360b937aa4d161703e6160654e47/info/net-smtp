@@ -7,3 +7,4 @@
 0.3.1 digest:>= 0,net-protocol:>= 0,timeout:>= 0|checksum:3af115c64d7aace0aa41f63a77f8e40707fd842a2de4bb24ebced6b4dd4465e8,ruby:>= 2.6.0
 0.3.2 net-protocol:>= 0|checksum:4d35446673295f47c288e859a21b202a003534bc7fa31b77d4ee7afea61d3e34,ruby:>= 2.6.0
 0.3.3 net-protocol:>= 0|checksum:3d51dcaa981b74aff2d89cbe89de4503bc2d682365ea5176366e950a0d68d5b0,ruby:>= 2.6.0
+0.4.0 net-protocol:>= 0|checksum:2d7eb8de289ba8dce3f0d436ee40b9366bea28354c5ba183c8ab2ec05139a3e7,ruby:>= 2.6.0

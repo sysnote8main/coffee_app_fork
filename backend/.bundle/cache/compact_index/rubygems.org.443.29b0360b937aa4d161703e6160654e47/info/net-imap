@@ -13,3 +13,13 @@
 0.3.5 date:>= 0,net-protocol:>= 0|checksum:fc96c065eef062e402d32f0b7127e6620fe02de94c4c8799898468a7db45ee26,ruby:>= 2.6.0
 0.3.6 date:>= 0,net-protocol:>= 0|checksum:75f5ac449e640d7981abc1af0fcb265d06989a99dccc81c8f0654e9ab2f438cc,ruby:>= 2.6.0
 0.3.7 date:>= 0,net-protocol:>= 0|checksum:231fc961974fe32c59a019893ae0849d55792412b65a8d43910a7e761ee6c751,ruby:>= 2.6.0
+0.4.0 date:>= 0,net-protocol:>= 0|checksum:0002aa0f164883d8c3696e5899d0cf02b51717be26e9ffcd49d4470434363089,ruby:>= 2.7.3
+0.4.1 date:>= 0,net-protocol:>= 0|checksum:022f261399b8921e0defcea162e1f812074fb5aa7c98d64afaf7aa7456181934,ruby:>= 2.7.3
+0.4.2 date:>= 0,net-protocol:>= 0|checksum:718d2f3814396598bc4e5508e3f57b603ae8752116031a429cc1708c68baf5e8,ruby:>= 2.7.3
+0.4.3 date:>= 0,net-protocol:>= 0|checksum:db3d28c2bca912dcb83888d6ba8f09477a51f93cf9a17b21d87ebe61bf3638b6,ruby:>= 2.7.3
+0.4.4 date:>= 0,net-protocol:>= 0|checksum:7e61f6260343db3b49cee914f411aae81bc3ea768938112e805f9c329b59bce7,ruby:>= 2.7.3
+0.4.5 date:>= 0,net-protocol:>= 0|checksum:ca4466bfd7266eac15f93ef046431fbe9fcb354ed7d624f070c0e7d1c89cfc8a,ruby:>= 2.7.3
+0.4.6 date:>= 0,net-protocol:>= 0|checksum:31975db12d9f7979338ad29934ded585a1fdc881b096dc72b35596a563281a3e,ruby:>= 2.7.3
+0.4.7 date:>= 0,net-protocol:>= 0|checksum:ba2b20395d5fa4f754ba12b0c1a57cf5e3189ade21e8e98646d090afb0a38114,ruby:>= 2.7.3
+0.4.8 date:>= 0,net-protocol:>= 0|checksum:bb8e1482612d9ad4c62d401b90873bbc2e5fbe75db96483972ea9f7d33ebd5f2,ruby:>= 2.7.3
+0.4.9 date:>= 0,net-protocol:>= 0|checksum:97cdc934002e27921c9e2a0478390bb1b23e01dbca8f2e3619d1591b7573f1c7,ruby:>= 2.7.3

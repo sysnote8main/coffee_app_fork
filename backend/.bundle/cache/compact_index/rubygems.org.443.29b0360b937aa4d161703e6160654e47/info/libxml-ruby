@@ -115,3 +115,5 @@
 4.1.0 |checksum:ac3708721b85b35c157de5b6ad84b3f0441efb8450d380133fe3fe0a148f32ea,ruby:>= 2.5
 4.1.1 |checksum:432bad1a3af3e4066e32ce3654a7cde2eea227bc2c200b406807153a91a75929,ruby:>= 2.5
 4.1.1-x64-mingw-ucrt |checksum:1edd2263cbbe45b0ecc136cfbe1c5a256c17fc54ff316ad769be8fdede97d93f,ruby:>= 2.5
+4.1.2 |checksum:dbead8aa8e3b61cd391126149623def83a7cb22bead78c21f9e5cdc04830bbe8,ruby:>= 2.5
+4.1.2-x64-mingw-ucrt |checksum:d455239290e4b7bf753dbe32812befe1a6ff41539d808e365ec8790bf5b2ceb0,ruby:>= 2.5

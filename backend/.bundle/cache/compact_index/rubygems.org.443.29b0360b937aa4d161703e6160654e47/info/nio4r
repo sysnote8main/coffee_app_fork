@@ -78,3 +78,9 @@
 2.5.8-java |checksum:b2b1800f6bf7ce4b797ca8b639ad278a99c9c904fb087a91d944f38e4bd71401,ruby:>= 2.4
 2.5.9 |checksum:0e9d160662fd38d5a26cfe75308f32dfebe4c0523bceaa86873838c93f3a2971,ruby:>= 2.4
 2.5.9-java |checksum:6575a25fbba4cb84fd50d04068eb430f4bf02a3bc2314d41e201e01b9d42dfbd,ruby:>= 2.4
+2.6.0 |checksum:b0f89a01783f177cbfee1b49dcb821061ab253c84fcb27dcdcd8c3af98aecbde,ruby:>= 2.4
+2.6.0-java |checksum:8f8d469705f70c74ccfdd9aa7d4ec1c3d092dc4bd3722fd71c617f8cdca07f6d,ruby:>= 2.4
+2.6.1 |checksum:284aae4adc431498a8f2a8e6027da72bca5f2ea8134d770ffc6f8e45bf6b29f9,ruby:>= 2.4
+2.6.1-java |checksum:a26a0e911565dc8ae2947b8b8fd1b00dad4c636409f3cf1efec47218b1bba5f0,ruby:>= 2.4
+2.7.0 |checksum:9586a685eca8246d6406e712a525e705d15bb88f709d78fc3f141e864df97276,ruby:>= 2.4
+2.7.0-java |checksum:3f2e515e928ceeef7668e1f64fc3bfef1417a5ec0908d8e69f2c6d486284e04d,ruby:>= 2.4

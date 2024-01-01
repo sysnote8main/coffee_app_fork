@@ -149,3 +149,5 @@
 7.2.0.beta1 |checksum:2d540d3b3218a5d6aa2c99cfc10dbd00ccd613b84c95db142b2915a755513499,ruby:>= 2.6,rubygems:> 1.3.1
 7.2.0.rc1 |checksum:6621673d89bdb9fcf5810f2b4cea048fa0aed6cab10ad1f7363c55965f19a8b3,ruby:>= 2.6,rubygems:> 1.3.1
 7.2.0 |checksum:2a28f177173d1f6bef77471fa927c73959cda36cd03772e117f2fec48f34d2cb,ruby:>= 2.6
+7.2.1.rc1 |checksum:85663af8db9f01abe6e66a1b372d5a9a47e4dc964705077edce0a87bc5c171c1,ruby:>= 2.6,rubygems:> 1.3.1
+7.2.1 |checksum:3cd1fabb1f95e36c600ef4469c0482ec9c9505a3a4f461f7262444c2001901c4,ruby:>= 2.6

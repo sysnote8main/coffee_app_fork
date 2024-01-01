@@ -55,3 +55,5 @@
 2.21.1 crass:~> 1.0.2,nokogiri:>= 1.5.9|checksum:f8e1584c56195e7b6139d53c50d6d9cf1adbc5997a7f4e60a3e23095c4900765
 2.21.2 crass:~> 1.0.2,nokogiri:>= 1.12.0|checksum:e8d11371d04b3dce636e4d6adaae9abff7770fd293400867b414a4a15510db06,ruby:>= 2.5.0
 2.21.3 crass:~> 1.0.2,nokogiri:>= 1.12.0|checksum:43d21a8bb96c380199a8f66e0298649eaa7362fcd32f3a6114f39775e524e4dc,ruby:>= 2.5.0
+2.21.4 crass:~> 1.0.2,nokogiri:>= 1.12.0|checksum:2c18cd5db9fd92a48a270344e57a5b84cf22d668b78e1481f10e4f2cde4eb734,ruby:>= 2.5.0
+2.22.0 crass:~> 1.0.2,nokogiri:>= 1.12.0|checksum:10d76e070c86b12fec74b6a9515fd1940f4459198b991342d0a7897d86c372fe,ruby:>= 2.5.0

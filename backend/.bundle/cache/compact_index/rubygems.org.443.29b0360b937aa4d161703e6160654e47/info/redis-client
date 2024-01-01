@@ -30,3 +30,7 @@
 0.15.0 connection_pool:>= 0|checksum:14aa758840747526b5b42f74ffdbc3425abf1757d94c3c88cab4bc4097137a39,ruby:>= 2.5.0
 0.16.0 connection_pool:>= 0|checksum:c7ea672af4ce3af258771ff0ee602c3e28213a18ef70de8d4c09d99dd5a0c407,ruby:>= 2.5.0
 0.17.0 connection_pool:>= 0|checksum:b577be5db2182465f889ecb8b9c102656f990e83d82f129fd836336bffa07658,ruby:>= 2.5.0
+0.17.1 connection_pool:>= 0|checksum:6f223d3df30202c8a5fffe93c85a856462c900bf01dc82fd7235d020393709bc,ruby:>= 2.5.0
+0.18.0 connection_pool:>= 0|checksum:a93bd1f99c024bb7f8e21eff7bdbcb16d85dbcbfe3f6ed051239e38d4c127704,ruby:>= 2.5.0
+0.19.0 connection_pool:>= 0|checksum:6ed9af23ff5aa87cf4d59439db77082b4cae5a0abbdd114ec5420bd63456324d,ruby:>= 2.5.0
+0.19.1 connection_pool:>= 0|checksum:de804bef007d2cde461f8a98b081e205c586eb4f73e3ad97eeb9f6595e77dea9,ruby:>= 2.5.0

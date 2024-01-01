@@ -5,3 +5,4 @@
 1.0.0 |checksum:174f2f95ee8e48629ee53da9f3fdc407d8a053e311ce58a3fa9405d7b9ac5cd3,ruby:>= 2.0
 1.1.0rc1 |checksum:5b292a261fd83fc28008729ce5d89f94bec7a20ba7e7f60ccb1549d9962c628f,ruby:>= 2.0,rubygems:> 1.3.1
 1.1.0 |checksum:eaa5a2d0195e1d65fb4164e8e7e466cca2e7eb53bc5e608cf12b8bf02c3a8606,ruby:>= 2.0
+1.2.0 |checksum:9bdfa02eebc3da163833e6a89b154084232f5766087e59573b70521c77ea68a2,ruby:>= 2.0

@@ -46,3 +46,7 @@
 0.3.6 io-console:~> 0.5|checksum:b0914e86d6e0c0587f341e0c39060f6469e239207abea3ba7e352d3d6a77fae5,ruby:>= 2.6
 0.3.7 io-console:~> 0.5|checksum:52a3b04bf7ff88766a2584a02c48e17f1e1aa62cdc01e71267daa1b08232cbd8,ruby:>= 2.6
 0.3.8 io-console:~> 0.5|checksum:8ba214a53cb65224d39cd623cce6b35db553c711b0c05175c5c40ef3cfb66153,ruby:>= 2.6
+0.3.9 io-console:~> 0.5|checksum:4a024da0e1802086efe9c7c2de9546c1f3f38fab269b29ff6e13b53393bc0705,ruby:>= 2.6
+0.4.0 io-console:~> 0.5|checksum:234c1d03d90a0950193f1e5d6593b1dec5de4d9ab4dad746340a05dab0e5be1d,ruby:>= 2.6
+0.4.1 io-console:~> 0.5|checksum:08c2db3d2b835f582d734d3f44cd71c26cae59e2a94a58d562fde36fa4fb26c2,ruby:>= 2.6
+0.5.0.pre.1 io-console:~> 0.5|checksum:40b9dffedaf6fb271c2de5d58e1c3e32ef078cdd0f8da8aa5951194df72aaac0,ruby:>= 2.6,rubygems:> 1.3.1

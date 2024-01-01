@@ -4638,3 +4638,34 @@ Started GET "/beans" for 172.21.0.1 at 2023-10-05 09:00:57 +0900
 Processing by BeansController#index as HTML
 Started GET "/beans" for 172.21.0.1 at 2023-10-05 09:00:59 +0900
 Processing by BeansController#index as HTML
+Started GET "/" for 172.21.0.1 at 2024-01-01 12:13:40 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (8.9ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.7.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.0ms | Allocations: 531)
+Completed 200 OK in 37ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 4298)
+
+
+Started GET "/beans" for 172.21.0.1 at 2024-01-01 12:13:57 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BeansController#index as HTML
+  [1m[36mBean Load (7.9ms)[0m  [1m[34mSELECT `beans`.* FROM `beans`[0m
+  ↳ app/controllers/beans_controller.rb:4:in `index'
+Completed 200 OK in 37ms (Views: 11.4ms | ActiveRecord: 16.3ms | Allocations: 13514)
+
+
+Started GET "/beans/13" for 172.21.0.1 at 2024-01-01 12:14:03 +0900
+Processing by BeansController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mBean Load (5.6ms)[0m  [1m[34mSELECT `beans`.* FROM `beans` WHERE `beans`.`id` = 13 LIMIT 1[0m
+  ↳ app/controllers/beans_controller.rb:18:in `show'
+Completed 200 OK in 12ms (Views: 0.3ms | ActiveRecord: 5.6ms | Allocations: 1626)
+
+
+Started GET "/beans" for 172.21.0.1 at 2024-01-01 12:14:06 +0900
+Processing by BeansController#index as HTML
+  [1m[36mBean Load (1.0ms)[0m  [1m[34mSELECT `beans`.* FROM `beans`[0m
+  ↳ app/controllers/beans_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 1.0ms | Allocations: 888)
+
+
