@@ -3,6 +3,5 @@
 set -o errexit
 
 bundle install
-npm install
-npm run build 
-bundle exec rails db:migrate
+./bin/rails assets:precompile
+./bin/rails assets:clean
