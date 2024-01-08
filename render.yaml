@@ -1,21 +1,28 @@
 databases:
-  - name: coffee
-    databaseName: coffee
-    user: coffeeuser
+  - name: coffee_db
+    databaseName: coffee_postgresql
+    user: coffee_user
     plan: free
 
 services:
   - type: web
-    name: coffee
-    runtime: ruby
+    name: coffee_backend
+    env: docker
+    region: singapore
+    branch: main
     plan: free
-    buildCommand: "./bin/render-build.sh"
-    preDeployCommand: "./bin/rails db:migrate" # preDeployCommand only available on paid instance types
-    startCommand: "./bin/rails server"
+    dockerfilePath: ./backend/Dockerfile
+  - type: web
+    name: coffee_frontend
+    env: docker
+    region: singapore
+    branch: main
+    plan: free
+    dockerfilePath: ./frontend/Dockerfile
     envVars:
       - key: DATABASE_URL
         fromDatabase:
-          name: coffee
+          name: coffee_db
           property: connectionString
       - key: RAILS_MASTER_KEY
         sync: false
