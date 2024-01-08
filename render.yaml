@@ -1,7 +1,7 @@
 databases:
-  - name: coffee_db
-    databaseName: coffee_postgresql
-    user: coffee_user
+  - name: coffee
+    databaseName: coffee_production
+    user: coffee_production_user
     plan: free
 
 services:
