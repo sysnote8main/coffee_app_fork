@@ -33,6 +33,8 @@ test:
 production:
   <<: *default
   adapter: postgresql
+  username: coffee_production_user
+  password: <%= ENV['MYSQL_ROOT_PASSWORD'] %>
   url: <%= ENV['DATABASE_URL'] %>
 
 # As with config/credentials.yml, you never want to store sensitive information,
