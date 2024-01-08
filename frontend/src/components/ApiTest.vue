@@ -11,7 +11,7 @@
     data() {
       return {
         message: '',
-        frontUrl: import.meta.env.VITE_FRONT_URL + '/api/test'
+        frontUrl: import.meta.env.VITE_BACK_URL + '/api/test'
         // 'http://localhost:3000/api/test'
       }
     },

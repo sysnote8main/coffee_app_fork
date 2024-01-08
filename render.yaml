@@ -12,13 +12,6 @@ services:
     branch: main
     plan: free
     dockerfilePath: ./backend/Dockerfile
-  - type: web
-    name: coffee_frontend
-    env: docker
-    region: singapore
-    branch: main
-    plan: free
-    dockerfilePath: ./frontend/Dockerfile
     envVars:
       - key: DATABASE_URL
         fromDatabase:

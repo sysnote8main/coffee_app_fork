@@ -8,7 +8,7 @@ export default {
       res: {},
       message: '',
       bean: {},
-      frontUrl: import.meta.env.VITE_FRONT_URL,
+      frontUrl: import.meta.env.VITE_BACK_URL,
     };
   },
   created() {
